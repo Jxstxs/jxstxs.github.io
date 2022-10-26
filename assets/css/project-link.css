@@ -1,0 +1,18 @@
+.project-link p {
+    display: inline;
+}
+
+.project-link a{
+    display: block;
+    /* padding: 5px; */
+    font-size: 1.2rem;
+    padding-left: 0;
+    /* width: 100px; */
+}
+/* animations / utilities */
+.project-link a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}

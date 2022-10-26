@@ -1,0 +1,6 @@
+.page-link a:hover{
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}

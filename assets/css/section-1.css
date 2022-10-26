@@ -1,0 +1,41 @@
+.section-1{
+    padding-top: 30vh;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.bground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./../images/background.png");
+    filter: blur(1px);
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+    filter: blur(0px);
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    filter: blur(0px);
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+    filter: blur(0px);
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
